@@ -47,7 +47,7 @@
 	{
 		line-height: 180%;
 	}
-	
+
 	strong
 	{
 	}
@@ -220,7 +220,7 @@
 
 	.title h2
 	{
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		font-size: 2.7em;
 	}
 
@@ -337,7 +337,7 @@
 	#logo a
 	{
 		text-decoration: none;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		color: #FFF;
 	}
 
@@ -381,7 +381,7 @@
 
 	#menu .current_page_item a
 	{
-		background: #009E2D;
+		/* background: #000; */
 		color: #FFF;
 	}
 
@@ -406,7 +406,7 @@
 	#banner .title
 	{
 		margin-bottom: 1em;
-		text-transform: uppercase !important;
+		/* text-transform: uppercase !important; */
 	}
 
 	#banner .title h2
@@ -498,7 +498,7 @@
 	{
 		overflow: hidden;
 		padding: 5em 0em;
-		background: #009E2D;
+		background: #202020;
 		color: rgba(255,255,255,.8);
 		text-align: center;
 	}
@@ -513,7 +513,7 @@
 		background: #FFF;
 		margin-top: 3em;
 		font-size: 1em;
-		color: #009E2D;
+		color: #000;
 	}
 
 	#featured .title
