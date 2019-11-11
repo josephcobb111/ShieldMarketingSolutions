@@ -40,6 +40,8 @@ Released   : 20140309
 		});
 	});
 	</script>
+	<script src="https://smtpjs.com/v3/smtp.js">
+	</script>
 	<div id="wrapper">
 		<div id="header-wrapper-home">
 			<div class='header-overlay'></div>
@@ -108,7 +110,7 @@ Released   : 20140309
 							<a id="contact_us"></a>
 							<h1>Contact Us</h1>
 							<span class="byline">Contact us today to see how we can help your business grow!</span></div>
-							<form>
+							<form action="mailto:joseph.cobb@shieldmarketingsolutions.com" method="post" enctype="text/plain">
 								Email:
 								<input type="email" name="email"><!-- use this to reply visitors and prevent spam via akismet -->
 								<br>
@@ -120,8 +122,6 @@ Released   : 20140309
 								<br>
 								Message:
 								<input type="text" name="anotherInput">
-								<br>
-								<input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
 								<br>
 								<input type="submit" value="Submit">
 							</form>
