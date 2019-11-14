@@ -4,18 +4,16 @@ function sendEmail() {
 	// ok let's get this emial thing working gosh darn it  -->
 	// 99200a94-dbb8-4109-8ec0-3c7418754f5d -->
 	//  developer keys? i dont see any developer keys -->
-	<script>
 	Email.send({
 	    SecureToken : "99200a94-dbb8-4109-8ec0-3c7418754f5d"
 	    // To : 'joseph.cobb@shieldmarketingsolutions.com',
 			To : 'js.wubbenhorst@gmail.com',
-	    From : "yomama@gmail.com",
+	    From : "jswwu66@yahoo.com",
 	    Subject : "This is the subject",
 	    Body : "And this is the body"
 	}).then(
 	  message => alert(message)
 	);
-	</script>
 
 
 	// Email.send({
