@@ -128,43 +128,39 @@ Released   : 20140309
 						</div>
 						<!-- if stuff breaks below here blame jeffrey -->
 
-<!--
+						<!--
 						<form method="post">
-							<input type="button" value="Send Email" onclick="sendEmail()"/>
-						</form>
-					-->
+						<input type="button" value="Send Email" onclick="sendEmail()"/>
+					</form>
+				-->
 
-						<script src="https://smtpjs.com/v3/smtp.js"></script>
-						<script>
-						function sendEmail() {
-
-							// ok let's get this emial thing working gosh darn it  -->
-							// 99200a94-dbb8-4109-8ec0-3c7418754f5d -->
-							//  developer keys? i dont see any developer keys -->
-							function sendEmail() {
+				<script src="https://smtpjs.com/v3/smtp.js"></script>
+				<script type="text/javascript">
+				// ok let's get this emial thing working gosh darn it  -->
+				// 99200a94-dbb8-4109-8ec0-3c7418754f5d -->
+				//  developer keys? i dont see any developer keys -->
+				function sendEmail() {
 					Email.send({
-							SecureToken : "dcfada99-f513-41af-951e-0eb5077effa3",
-							To : "jswu66@yahoo.com",
-							From : "jswu66@yahoo.com",
-							Subject : "This is the subject",
-							Body : "And this is the body",
+						SecureToken : "dcfada99-f513-41af-951e-0eb5077effa3",
+						To : "jswu66@yahoo.com",
+						From : "jswu66@yahoo.com",
+						Subject : "This is the subject",
+						Body : "And this is the body",
 					})
-						.then(function(message){
-							alert("mail sent!! ugh")
-						});
+					.then(function(message){
+						alert("mail sent!! ugh")
+					});
 				}
+				</script>
 
 
+				<input type="button" value="annoy jeffrey" onclick="sendEmail()">
 
 
-						</script>
-<input type="button" value="annoy jeffrey" onclick="sendEmail()">
+			</div>
+			<div id="copyright" class="container">
+				<p>&copy; 2019. All rights reserved. | Shield Marketing Solutions</p>
+			</div>
+		</body>
 
-
-					</div>
-					<div id="copyright" class="container">
-						<p>&copy; 2019. All rights reserved. | Shield Marketing Solutions</p>
-					</div>
-				</body>
-
-				</html>
+		</html>
