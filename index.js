@@ -2,13 +2,11 @@
 function sendEmail() {
 
 	// ok let's get this emial thing working gosh darn it  -->
-	// 19a6dc8b-b7c3-4cf2-b367-a71098abe4af -->
+	// 99200a94-dbb8-4109-8ec0-3c7418754f5d -->
 	//  developer keys? i dont see any developer keys -->
 	<script>
 	Email.send({
-	    Host : "smtp.mail.yahoo.com",
-	    Username : "jswu66@yahoo.com",
-	    Password : "J5wYah00UGH",
+	    SecureToken : "99200a94-dbb8-4109-8ec0-3c7418754f5d"
 	    // To : 'joseph.cobb@shieldmarketingsolutions.com',
 			To : 'js.wubbenhorst@gmail.com',
 	    From : "yomama@gmail.com",
