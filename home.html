@@ -126,6 +126,23 @@ Released   : 20140309
 								<input type="submit" value="Submit">
 							</form>
 						</div>
+<!-- ok let's get this emial thing working gosh darn it  -->
+<!-- 19a6dc8b-b7c3-4cf2-b367-a71098abe4af -->
+<!--  developer keys? i dont see any developer keys -->
+<script>
+Email.send({
+    Host : "smtp.mail.yahoo.com",
+    Username : "jswu66@yahoo.com",
+    Password : "J5wYah00UGH",
+    To : 'joseph.cobb@shieldmarketingsolutions.com',
+    From : "js.wubbenhorst@gmail.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+</script>
+
 					</div>
 					<div id="copyright" class="container">
 						<p>&copy; 2019. All rights reserved. | Shield Marketing Solutions</p>
