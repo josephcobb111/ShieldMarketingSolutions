@@ -435,6 +435,18 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	color: rgba(255,255,255,.8);
 }
 
+#youtube-page-banner
+{
+	overflow: hidden;
+	padding: 3em 0em 5em 0em;
+	background: #202020;
+	background-size: cover;
+	background-image: url("img/blue-website-background-image.jpg");
+	background-size: auto;
+	text-align: center;
+	color: rgba(255,255,255,.8);
+}
+
 #banner .title
 {
 	margin-bottom: 1em;
